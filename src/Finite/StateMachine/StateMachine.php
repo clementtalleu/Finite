@@ -71,7 +71,7 @@ class StateMachine implements StateMachineInterface
      */
     public function __construct(
         $object = null,
-        StateMachineDispatcher $dispatcher = null,
+        $dispatcher = null,
         StateAccessorInterface $stateAccessor = null
     ) {
         $this->object = $object;
