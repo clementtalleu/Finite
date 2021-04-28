@@ -33,7 +33,7 @@ class CallbackHandler
     /**
      * @param StateMachineDispatcher $dispatcher
      */
-    public function __construct(StateMachineDispatcher $dispatcher)
+    public function __construct($dispatcher)
     {
         $this->dispatcher = $dispatcher;
         $this->specResolver = new OptionsResolver();
