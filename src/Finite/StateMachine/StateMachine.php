@@ -67,7 +67,8 @@ class StateMachine implements StateMachineInterface
     /**
      * @param object                   $object
      * @param StateMachineDispatcher   $dispatcher
-     * @param StateAccessorInterface   $stateAccessor
+     * @param StateAccessorInterface   $stateAccessor 
+     * //@todo remove typehint here
      */
     public function __construct(
         $object = null,
